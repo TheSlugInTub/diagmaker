@@ -1,33 +1,77 @@
 [
     {
         "connections": [
-            2
+            5
         ],
         "event": "",
         "position": [
-            -0.19405120611190796,
-            0.5750956535339355
+            -0.24926972389221191,
+            2.1970345973968506
         ],
-        "text": "I've been away for a while and hope you didn't do anything while i was gone\nHey there\nHow ya doin\n"
+        "text": "I wanted to tell you something"
     },
     {
         "connections": [
-            3
+            4,
+            3,
+            1
         ],
         "event": "",
         "position": [
-            -3.4611763954162598,
-            -4.128694534301758
+            -7.388051986694336,
+            -2.2598001956939697
         ],
-        "text": "Mortal demon"
+        "text": "Hello there mate!"
+    },
+    {
+        "connections": [
+            6
+        ],
+        "event": "",
+        "position": [
+            -0.22015905380249023,
+            -0.9305951595306396
+        ],
+        "text": "Hello!"
+    },
+    {
+        "connections": [
+            6
+        ],
+        "event": "",
+        "position": [
+            -0.5010125637054443,
+            -6.107539653778076
+        ],
+        "text": "Hi."
     },
     {
         "connections": [],
         "event": "",
         "position": [
-            4.618012428283691,
-            -6.769462585449219
+            6.490812301635742,
+            0.6485991477966309
         ],
-        "text": "Immortal demon"
+        "text": "What is it?"
+    },
+    {
+        "connections": [
+            7
+        ],
+        "event": "",
+        "position": [
+            5.521186351776123,
+            -4.477637767791748
+        ],
+        "text": "I like you."
+    },
+    {
+        "connections": [],
+        "event": "",
+        "position": [
+            12.314237594604492,
+            -4.898022174835205
+        ],
+        "text": "Oh nice"
     }
 ]
