@@ -1,0 +1,33 @@
+[
+    {
+        "connections": [
+            2
+        ],
+        "event": "",
+        "position": [
+            -0.19405120611190796,
+            0.5750956535339355
+        ],
+        "text": "I've been away for a while and hope you didn't do anything while i was gone\nHey there\nHow ya doin\n"
+    },
+    {
+        "connections": [
+            3
+        ],
+        "event": "",
+        "position": [
+            -3.4611763954162598,
+            -4.128694534301758
+        ],
+        "text": "Mortal demon"
+    },
+    {
+        "connections": [],
+        "event": "",
+        "position": [
+            4.618012428283691,
+            -6.769462585449219
+        ],
+        "text": "Immortal demon"
+    }
+]
