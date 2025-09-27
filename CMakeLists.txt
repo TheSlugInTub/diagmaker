@@ -34,14 +34,13 @@ add_definitions(
     -DBX_CONFIG_DEBUG=1
 )
 
-# Add the executable
-add_executable(${PROJECT_NAME} 
-    ${SOURCES}
-    ${INCLUDESOURCES}
-)
-
 # Link libraries for the main project
 if(WIN32)
+    add_executable(${PROJECT_NAME}
+        ${SOURCES}
+        ${INCLUDESOURCES}
+    )
+
     target_link_libraries(${PROJECT_NAME} PRIVATE
         ${CMAKE_SOURCE_DIR}/lib/glfw3.lib
         ${CMAKE_SOURCE_DIR}/lib/freetype.lib
@@ -52,6 +51,11 @@ if(WIN32)
 endif()
 
 if(UNIX AND NOT APPLE)
+    add_executable(${PROJECT_NAME} 
+        ${SOURCES}
+        ${INCLUDESOURCES}
+    )
+
     target_link_libraries(${PROJECT_NAME} PRIVATE
         ${CMAKE_SOURCE_DIR}/lib/libglfw3.a
     )

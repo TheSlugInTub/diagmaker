@@ -1459,8 +1459,7 @@ int main(int argc, char** argv)
     slb_Vector_PushBack(renderObjects, &curs);
 
     CreateDialogueBox(
-        "I've been away for a while and hope you didn't do anything "
-        "while i was gone\nHey there\nHow ya doin\n",
+        "Hello, world!",
         (vec2) {0.0f, 1.0f}, 0.01f, renderObjects, textObjects,
         dialogueBoxes, physicalDevice, &device, &commandPool,
         descriptorSetLayout, descriptorPool);

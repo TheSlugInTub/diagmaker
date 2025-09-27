@@ -8,6 +8,10 @@ You can create a node by pressing middle click, connect two nodes by pressing ri
 
 The program is built in C with Vulkan.
 
+# Instructions
+
+Please install the Vulkan runtime for this program. You can easily get it from: https://vulkan.lunarg.com/sdk/home.
+
 # Building
 
 You need to install git and cmake if you don't already have them.
